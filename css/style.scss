@@ -1,1 +1,877 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
+}
+
+.mt34 {
+    margin-top: 34px;
+}
+
+.mt28 {
+    margin-top: 28px;
+}
+
+.mt26 {
+    margin-top: 26px;
+}
+
+.mt22 {
+    margin-top: 22px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt11 {
+    margin-top: 11px;
+}
+
+.ml109 {
+    margin-left: 109.03px;
+}
+
+.header {
+    width: 1440px;
+    height: 106px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-bottom: 2px dashed rgba(203, 203, 203, 1.0);
+
+    .header__box-nav {
+        width: 940px;
+        height: 70px;
+        margin: 18px auto 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .header__logo-title {
+            width: 155px;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            gap: 18px;
+
+            .header__logo {
+                width: 65px;
+                height: 70px;
+                border: 2px dashed rgba(203, 203, 203, 1.0);
+
+            }
+
+            .header__title {
+                color: rgb(51, 51, 51);
+                font-family: Oswald;
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 38px;
+                margin-top: 13px;
+                margin-bottom: 19px;
+                text-decoration: none;
+            }
+        }
+
+        .header__nav {
+
+            .header__navbar {
+                padding-left: 34px;
+                width: 358px;
+                height: 45px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+                gap: 34px;
+
+
+                .navbar__item {
+                    list-style-type: none;
+
+
+                    .navbar__link {
+                        color: rgb(64, 64, 64);
+                        font-family: Montserrat;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        text-decoration: none;
+                    }
+
+                    .navbar__link:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main {
+
+    .main__making-brands {
+        width: 1440px;
+        height: 391px;
+        margin: 0 auto;
+        background-image: url(../images/making-brands.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .making-brands__box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .making-brands__titl-top {
+                text-transform: uppercase;
+                color: rgb(255, 255, 255);
+                font-family: Montserrat;
+                font-size: 44px;
+                font-weight: 400;
+                line-height: 55px;
+                text-align: center;
+            }
+
+            .making-brands__titl-bottom {
+                text-transform: uppercase;
+                color: rgb(255, 255, 255);
+                font-family: Montserrat;
+                font-size: 43px;
+                font-weight: 400;
+                line-height: 55px;
+                text-align: center;
+            }
+
+            .making-brands__line {
+                width: 80px;
+                height: 2px;
+                background: rgb(255, 255, 255);
+                margin-top: 28px;
+            }
+
+            .making-brands__text {
+                color: rgba(255, 255, 255, 0.81);
+                font-family: Vollkorn;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 20px;
+                margin-top: 25px;
+            }
+        }
+    }
+
+    .main__creative-agency {
+        width: 1440px;
+        height: 289px;
+        background: rgb(254, 254, 201);
+        margin: 0 auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: 2px dashed rgba(203, 203, 203, 1.0);
+
+        .creative-agency__crosshair {
+            position: absolute;
+            top: -31px;
+            left: 694px;
+            border: 2px dashed rgba(203, 203, 203, 1.0);
+        }
+
+        .creative-agency__box {
+            width: 940px;
+            height: 168px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .creative-agency__text {
+                text-align: center;
+                color: rgb(71, 71, 79);
+                font-family: Vollkorn;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 25px;
+            }
+
+            .creative-agency__button {
+                width: 159px;
+                height: 53px;
+                border-top: 1px solid rgb(71, 71, 79);
+                border-left: 1px solid rgb(71, 71, 79);
+                border-right: 1px solid rgb(71, 71, 79);
+                border-bottom: 2px solid rgb(71, 71, 79);
+                background-color: transparent;
+            }
+
+            .creative-agency__button:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .main__makeBrands {
+        width: 940px;
+        /* height: 487px; */
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .makeBrands__title {
+            color: rgb(51, 51, 51);
+            font-family: Montserrat;
+            font-size: 23px;
+            font-weight: 400;
+            line-height: 36px;
+            text-transform: uppercase;
+            margin-top: 79px;
+        }
+
+        .makeBrands__line {
+            width: 80px;
+            height: 2px;
+            background: rgba(203, 203, 203, 1.0);
+            margin-top: 28px;
+            margin-bottom: 43px;
+        }
+
+        .makeBrands__box {
+            width: 940px;
+            height: 368px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin-bottom: 69px;
+
+
+            .makeBrands__article {
+                min-width: 319.98px;
+                height: 368px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .makeBrands__bcg {
+                    width: 300px;
+                    height: 219px;
+                    background: rgb(245, 245, 245);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .makeBrands__img {
+                        width: 127px;
+                        height: 119px;
+                        border: 2px dashed rgba(203, 203, 203, 1.0);
+
+                    }
+
+
+                }
+
+                .makeBrands-article__title {
+                    color: rgb(51, 51, 51);
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    text-transform: uppercase;
+                    margin-top: 38px;
+                }
+
+                .makeBrands-article__text {
+                    color: rgb(51, 51, 51);
+                    font-family: Vollkorn;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    margin-top: 20px;
+                    width: 297px;
+                    height: 66px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .main__recent-projects {
+        width: 1440px;
+        height: 1469px;
+        margin: 0 auto;
+        background: rgb(245, 245, 245);
+
+        .recent-projects__box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .recent-projects__title {
+                color: rgb(51, 51, 51);
+                font-family: Montserrat;
+                font-size: 23px;
+                font-weight: 400;
+                line-height: 36px;
+                text-transform: uppercase;
+                margin-top: 79px;
+                margin-bottom: 28px;
+            }
+
+            .recent-projects__line {
+                width: 80px;
+                height: 2px;
+                background: rgba(203, 203, 203, 1.0);
+                margin-bottom: 43px;
+
+            }
+
+            .recent-projects__article-box {
+                width: 960px;
+                height: 403.98px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                gap: 20px;
+                background-color: transparent;
+
+                .recent-projects__article {
+                    width: 299.98px;
+                    max-height: 383.98px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #fff;
+                    padding-bottom: 21px;
+
+                    .recent-projects__img {
+                        width: 300px;
+                        height: 300px;
+                        display: block;
+                        border: 2px dashed rgba(203, 203, 203, 1.0);
+                    }
+
+
+
+                    .recent-projects__article-title {
+                        color: rgb(51, 51, 51);
+                        font-family: Montserrat;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        text-transform: uppercase;
+                        margin-top: 19px;
+                    }
+
+                    .recent-projects__article-text {
+                        color: rgb(51, 51, 51);
+                        font-family: Vollkorn;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        margin-top: 4px;
+                    }
+                }
+
+                .article-border {
+                    border: 2px dashed rgba(203, 203, 203, 1.0);
+                }
+            }
+        }
+    }
+}
+
+.main {
+
+    &__our-team {
+        height: 616px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__reviews {
+        /* Rectangle */
+        width: 1440px;
+        height: 511px;
+        background: rgb(245, 245, 245);
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__get-in-touch {
+        width: 1440px;
+        height: 517px;
+        margin: 0 auto;
+        background-image: url('../images/LET’s_Get_in_touch.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__rights-reserved {
+        /* Rectangle */
+        width: 1440px;
+        height: 639px;
+        margin: 0 auto;
+        background: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+.our-team {
+
+    &__big-box {
+        width: 940px;
+        height: 478px;
+        margin-top: 68.95px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__title {
+        /* our team */
+        width: 100%;
+        height: 36px;
+        color: rgb(51, 51, 51);
+        font-family: Montserrat;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 10.05px;
+    }
+
+    &__line {
+        width: 80px;
+        height: 2px;
+        background: rgba(0, 0, 0, 0.09);
+        margin-top: 28px;
+    }
+
+    &__box {
+        width: 960px;
+        height: 339px;
+        display: flex;
+        justify-content: center;
+        margin-top: 43px;
+    }
+
+    &__article {
+        width: 240px;
+        height: 339px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__article-title {
+        /* Ron Swanson */
+        width: 131px;
+        height: 20px;
+        color: rgb(51, 51, 51);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+
+    &__text {
+        /* Founder */
+        width: 54px;
+        height: 20px;
+        color: rgb(51, 51, 51);
+        font-family: Vollkorn;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-top: 6px;
+    }
+
+    &__box-icon {
+        margin-top: 29px;
+        display: flex;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    &__box-img {
+        /* Rectangle */
+        width: 29px;
+        height: 14px;
+        display: flex;
+        justify-content: center;
+        border: 1px solid transparent;
+        border-radius: 2.5px;
+        box-shadow: 0px 2px 0px transparent,
+            0px 4px 4px transparent;
+
+        &:hover {
+            cursor: pointer;
+            border: 1px solid transparent;
+            border-bottom: rgb(255, 255, 255);
+            box-shadow: 0px 2px 0px rgb(255, 255, 255),
+                0px 4px 4px rgb(120, 120, 120);
+        }
+    }
+
+}
+
+.reviews {
+
+    &__box {
+        /* Frame */
+        width: 940px;
+        height: 373px;
+        margin-top: 68.95px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__article-box {
+        width: 893px;
+        height: 274px;
+        margin-top: 36.95px;
+        display: flex;
+
+    }
+
+    &__article {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 446.5px;
+        height: 215px;
+    }
+
+    &__text {
+        /* “I love these guys! They did a great job. I would recommend them to anyone.” */
+        width: 338px;
+        height: 99px;
+        color: rgb(51, 51, 51);
+        font-family: Vollkorn;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 33px;
+        margin-bottom: 24px;
+        text-align: center;
+        margin-top: 28.05px;
+    }
+
+    &__title {
+        margin-top: 10px;
+        /* Julius Von Uberstien */
+        width: 181px;
+        height: 20px;
+        color: rgb(171, 171, 171);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+.get-in-touch {
+
+    &__box {
+        /* Frame */
+        width: 940px;
+        height: 379px;
+        margin-top: 68.95px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__title {
+        /* LET’s Get in touch */
+        width: 245px;
+        height: 36px;
+        color: rgb(51, 51, 51);
+        font-family: Montserrat;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+
+    &__line {
+        /* Rectangle */
+        width: 80px;
+        height: 2px;
+        background: rgba(0, 0, 0, 0.09);
+        margin-top: 28px;
+    }
+
+    &__article-box {
+        /* Frame */
+        width: 960px;
+        height: 260px;
+        display: flex;
+        justify-content: center;
+        margin-top: 42.95px;
+    }
+
+    &__article {
+        width: 319.98px;
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__subtitle {
+        /* MEET US IN PERSON */
+        height: 20px;
+        color: rgb(51, 51, 51);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        /* 8776 Juniper Street */
+        height: 22px;
+        color: rgb(33, 33, 33);
+        font-family: Vollkorn;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    &__link {
+        color: rgb(33, 33, 33);
+
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    &__elem {
+        display: inline-block;
+        margin-left: 9px;
+        color: rgb(33, 33, 33);
+
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+
+
+
+}
+
+.rights-reserved {
+
+    &__box {
+        /* Frame */
+        width: 940px;
+        height: 501px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 68.95px;
+    }
+
+    &__form {
+        /* Frame */
+        width: 564px;
+        height: 398px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__input {
+        width: 564px;
+        vertical-align: top;
+    }
+
+    &__button {
+        margin-top: 21.95px;
+        width: 210px;
+        height: 53px;
+        background-color: transparent;
+        color: rgb(139, 202, 195);
+        font-family: Vollkorn;
+        font-style: italic;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22px;
+        border-right: 1px solid rgb(126, 196, 189);
+        border-left: 1px solid rgb(126, 196, 189);
+        border-top: 1px solid rgb(126, 196, 189);
+        border-bottom: 2px solid rgb(126, 196, 189);
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__img {
+        border: 1px dashed rgba(255, 255, 255, 0.4);
+        margin-top: 15.05px;
+    }
+
+    &__text {
+        /* Minimal Template made in Webflow. All rights reserved. */
+        width: 391px;
+        height: 22px;
+        color: rgba(255, 255, 255, 0.4);
+        font-family: Vollkorn;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+        margin-top: 14px;
+    }
+}
+
+.form {
+
+    &__name {
+        /* Rectangle */
+        height: 57px;
+        background: rgba(255, 255, 255, 0.18);
+        color: rgb(255, 255, 255);
+        font-family: Vollkorn;
+        font-style: italic;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22px;
+        border: 1px solid transparent;
+        padding-left: 31px;
+        padding-right: 31px;
+
+        &:focus {
+            outline: none;
+        }
+
+        &:focus::placeholder {
+            color: transparent;
+        }
+    }
+
+    &__email {
+        /* Rectangle */
+        height: 57px;
+        background: rgba(255, 255, 255, 0.2);
+        color: rgb(255, 255, 255);
+        font-family: Vollkorn;
+        font-style: italic;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22px;
+        border: 1px solid transparent;
+        padding-left: 31px;
+        padding-right: 31px;
+
+        &:focus {
+            outline: none;
+        }
+
+        &:focus::placeholder {
+            color: transparent;
+        }
+    }
+
+    &__budget {
+        /* Rectangle */
+        height: 57px;
+        background: rgba(255, 255, 255, 0.18);
+        color: rgb(255, 255, 255);
+        font-family: Vollkorn;
+        font-style: italic;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22px;
+        border: 1px solid transparent;
+        padding-left: 31px;
+        padding-right: 31px;
+
+        &:focus {
+            outline: none;
+        }
+
+        &:focus::placeholder {
+            color: transparent;
+        }
+    }
+
+    &__project {
+        /* Rectangle */
+        height: 127px;
+        background: rgba(255, 255, 255, 0.2);
+        color: rgb(255, 255, 255);
+        font-family: Vollkorn;
+        font-style: italic;
+        font-size: 17px;
+        font-weight: 400;
+        /* line-height: 22px; */
+        border: 1px solid transparent;
+        padding-left: 31px;
+        padding-right: 31px;
+
+
+        &::placeholder {
+            transform: translateY(-32.5px);
+        }
+
+        &::-webkit-input-placeholder {
+            transform: translateY(-32.5px);
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &:focus::placeholder {
+            color: transparent;
+        }
+    }
+}
